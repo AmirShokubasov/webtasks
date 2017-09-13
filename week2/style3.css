@@ -1,0 +1,62 @@
+.image2{
+	width:100px;
+	height:70px;
+
+}
+.trucks{
+	color:green;
+}
+.Cars{
+	color:green;
+}
+.Moto{
+	color:green;
+}
+.item{
+	border:2px solid red;
+	border-radius:2px;
+	margin-top:10px;
+	width:550px;
+	height:90px;
+}
+.item2{
+	border:2px solid red;
+	border-radius:2px;
+	margin-top:10px;
+	background-color: yellow;
+	width:550px;
+	height:90px;
+}
+.item3{
+ 	border:2px solid red;
+ 	border-radius:2px;
+ 	margin-top:10px;
+ 	width:550px;
+ 	height:90px;
+
+}
+.title{
+	margin-top:10px;
+	font-size:30px;
+}
+.text_for{
+	font-weight: bold;
+	font-size:20px;
+}
+.city{
+	font-weight: bold;
+}
+img{
+	float:left;
+	margin-right:10px;
+	margin-left:10px;
+	margin-top:10px;
+}
+.description{
+	font-size:20px;
+}
+.price{
+	background-color:#FFDDDD;
+	color:green;
+	border-radius:7px;
+}

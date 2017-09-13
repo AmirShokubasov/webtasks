@@ -1,0 +1,30 @@
+.home{
+	float:left;
+	width:80px;
+	background-color:green;
+	border-radius:10px;
+	border:2px solid red;
+	
+
+}
+.about{
+	float:left;
+	width:80px;
+	background-color:green;
+	border-radius:10px;
+	border:2px solid red;
+	margin-left: 10px;
+	
+}
+.contacts{
+	float:left;
+	width:80px;
+	background-color:green;
+	border-radius:10px;
+	border:2px solid red;
+	margin-left: 10px;
+}
+a{
+	color:white;
+	text-decoration:none;
+}
