@@ -1,0 +1,44 @@
+.card{
+    border:2px solid #4DE7E7;
+    margin-top:10px; 
+    height: 100px;
+    padding: 10px;
+    margin-left: 10px;
+  }
+  img{
+    float: left;
+  }
+  .info{
+    margin-left: 110px; 
+  }
+  .price{
+    margin-top: 40px;
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+ @media screen and (max-width: 400px) {
+  .card{
+    border:2px solid #4DE7E7;
+    margin-top:10px; 
+    height: 30px;
+    padding: 5px;
+  }
+  img{
+    display: none;
+  }
+  .price{
+    float: right;
+    margin-top: 5px;
+    font-size: 23px;  
+  }
+  .desc{
+    display: none;
+  }
+  a{
+    font-size: 20px;
+    margin-top: 5px;
+    margin-left: -100px;
+    float: left;
+  }
+ }

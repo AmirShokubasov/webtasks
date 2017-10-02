@@ -1,0 +1,22 @@
+#overlay{
+	position: fixed;
+	bottom: 0;
+	right: 10;
+	border:5px solid yellow;
+}
+.note{
+	width: 75px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top:-20px;
+	
+}
+.overlaycontent{
+	border:25px solid red;
+}
+{
+
+}
+body{
+	background-color: grey;
+}
