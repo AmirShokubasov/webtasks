@@ -1,0 +1,17 @@
+
+button{
+	color: green;
+	width: 200px;
+	height: 25px;
+}
+strong{
+	font-size: 20px;
+}
+input{
+	width: 400px;
+}
+output{
+	float:left;
+	width: 100%;
+	color: red;
+}
