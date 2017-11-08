@@ -1,0 +1,33 @@
+<html>
+<head>
+
+<style>
+#news{
+	border:1px solid red;
+	width:400px;
+	height:300px;
+}
+</style>
+</head>
+<body>
+
+<div id="news"></div>
+<button id="sport" onclick="Change()">Load Sport news</button>
+<button id="politics" onclick="Change2()">Load Politics news</button>
+<button id="bussiness" onclick="Change3()">Load Bussiness news</button>
+
+
+<script defer>
+	function Change() {
+
+	document.getElementById('news').innerHTML = "<h1>Messi scored 5 goals</h1>" + "<p>Messi scored 5 goals in last match and became top-scorer of the league</p>"
+}
+function Change2() {
+	document.getElementById('news').innerHTML = "<h1>Trump visited UK</h1>" + "<p>Trump started his foreign tour by visiting UK</p>"
+}
+function Change3() {
+	document.getElementById('news').innerHTML = "<h1>Dow Jones index has fallen</h1>" + "<p>Dow Jones index has fallen, because of prices for petrol</p>"
+}
+</script>
+</body>
+</html>
